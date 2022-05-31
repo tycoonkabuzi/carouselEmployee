@@ -12,11 +12,22 @@
 </head>
 <body>
     <div class="carousel">
-        <div class="carousel__menu"> 
-            <span class="carousel__menu-span "></span>
-            <span class="carousel__menu-span carousel__menu-span--second"></span>
-            <span class="carousel__menu-span"></span>
+        <div class="carousel__menuContainer">
+            <div class="carousel__menu-content"> 
+                <ul class="carousel__menuItems">
+                    <li id="first" class="carousel__item carousel__item--active">Acceuil</li>
+                    <li id="second" class="carousel__item">Blog</li>
+                    <li id ="third" class="carousel__item">contact</li>
+                    <li id="fourth" class="carousel__item">Knowledge</li>
+                </ul>
+            </div>
         </div>
+        <div class="carousel__menu"> 
+            <span id="firstLine" class="carousel__menu-span "></span>
+            <span id="secondLine" class="carousel__menu-span carousel__menu-span--second"></span>
+            <span id="thirdLine" class="carousel__menu-span"></span>
+        </div>
+       
         <h1 class="carousel__title">Carousel des <span class="carousel__title--change">employées</span></h1>
         <div class="carousel__container">
             <div class="carousel__direction carousel__direction--left">
